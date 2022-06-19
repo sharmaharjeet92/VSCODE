@@ -2,8 +2,8 @@ from tkinter import Tk, Label
 window = Tk()
 window.title('Digital Clock by Harjeet')
 window.geometry("600x300")
-window.configure(bg="steelblue")
-label= Label(window, text="Welcome!", font=("Arial Black",78,"bold"), bg="steelblue",fg="white")
+window.configure(bg="Red")
+label= Label(window, text="Welcome!", font=("Arial Black",78,"bold"), bg="Red",fg="white")
 label.pack(pady=100)
 window.mainloop()
 
